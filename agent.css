@@ -1,0 +1,240 @@
+body
+{
+background:url(agent.jpg) no-repeat center center fixed;
+-webkit-background-size: cover; /* pour Chrome et Safari */
+-moz-background-size: cover; /* pour Firefox */
+-o-background-size: cover; /* pour Opera */
+background-size: cover; /* version standardisée */
+}
+
+#logo
+{
+float:left;
+}
+
+#deconnexion
+{
+float:left;
+margin-top:1%;
+margin-left:5%;
+}
+
+#deconnexion #texte
+{
+font-size:x-large;
+font-weight:bolder;
+}
+
+#deconnexion input[type="submit"]
+{
+width:125%;
+height:40px;
+border-radius:20px;
+border: black 3px solid;
+margin-bottom:5%;
+margin-left:85%;
+background: none;
+font-weight:bolder;
+font-size:medium;
+}
+
+#gestion 
+{
+clear:both;
+margin-left:33.33%;
+width:33.33%;
+height:30%;
+border-radius:10px;
+border: black 5px solid;
+}
+
+#synthese, #rechercher
+{
+float:left;
+margin-left:60px;
+text-align:center;
+}
+
+#ajouter, #rdv
+{
+clear:both;
+float:left;
+margin-left:60px;
+text-align:center;
+}
+
+#gestion input{
+border-color:black;
+text-align:center;
+font-weight:bold;
+font-size:medium;
+}
+
+#gestion input[type="submit"]
+{
+background: none;
+}
+
+#deconnexion input[type="submit"]:hover, #gestion input[type="submit"]:hover
+{
+background-color: #66CC33;
+cursor: pointer;
+}
+
+#resultat
+{
+margin-left:33.33%;
+width:32%;
+}
+
+#resultat form fieldset
+{
+border-radius:10px;
+border: black 5px solid;
+width:100%;
+}
+
+#resultat form legend
+{
+font-weight:bold;
+font-size:x-large;
+text-align:center;
+}
+
+#resultat input, #resultat select
+{
+border-radius:5px;
+font-size:medium;
+text-align:center;
+width: 58%;
+margin-left: 1%;
+border: #CCC 1px solid;
+}
+
+#resultat label
+{
+background-color: #FFCC66;
+width: 39%;
+display: block;
+float: left;
+font-weight:bold;
+border-radius:5px;
+text-align: right;
+letter-spacing: 1px;
+padding-right: 1px;
+}
+
+#resultat form .form_label_nostyle
+{
+border: none;
+background: none;
+}
+
+#resultat input[type="submit"]
+{
+border: #DDEEFF 1px solid; width: 27%;
+}
+
+#resultat input[type="submit"]:hover
+{
+background-color: #66CC33;
+cursor: pointer;
+}
+
+label:hover
+{
+font-weight:bolder;
+}
+
+/*#monForm
+{
+width: 60%;
+}
+
+#monForm fieldset
+{
+margin-bottom: 10px;
+border: #CCC 10px solid;
+border-radius:10px;
+}
+
+#monForm fieldset:hover
+{
+background-color:#FFF;
+}
+
+#monForm fieldset legend
+{
+padding: 0 10px;
+border-left: #CCC 1px solid;
+border-right: #CCC 1px solid;
+color: #999;
+}
+
+#monForm label
+{
+background-color: #FFCC66;
+width: 39%;
+display: block;
+float: left;
+text-align: right;
+letter-spacing: 1px;
+padding-right: 1px;
+}
+
+#monForm label:hover
+{
+font-weight:bold;
+}
+
+#monForm input, #monForm select
+{
+width: 58%;
+margin-left: 1%;
+border: #CCC 1px solid;
+}
+
+#monForm input:hover, #monForm select:hover, #monForm input:focus
+{
+background-color: #DDEEFF;
+border: #999 1px solid;
+}
+
+#monForm #jour, #monForm #mois
+{
+width: 3%;
+}
+
+#monForm #annee
+{
+width: 6%;
+}
+
+#monForm .form_label_nostyle
+{
+border: none;
+background: none;
+}
+
+#monForm input[type="submit"]
+{
+border: #DDEEFF 1px solid; width: 27%;
+}
+
+#monForm input[type="submit"]:hover
+{
+background-color: #66CC33;
+cursor: pointer;
+}
+
+#monForm input[type="reset"] 
+{
+border: #DDEEFF 1px solid;
+width: 27%;
+}
+
+#monForm input[type="reset"]:hover 
+{
+background-color: #E6484D;
+cursor: pointer;
+}*/

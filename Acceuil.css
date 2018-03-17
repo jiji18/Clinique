@@ -1,0 +1,79 @@
+body
+{
+background:url(fond.jpg) no-repeat center center fixed;
+-webkit-background-size: cover; /* pour Chrome et Safari */
+-moz-background-size: cover; /* pour Firefox */
+-o-background-size: cover; /* pour Opera */
+background-size: cover; /* version standardisée */
+}
+
+#connexion fieldset
+{
+width:30%;
+height:300px;
+margin-left:50%;
+border-radius:10px;
+border: black 5px solid;
+}
+
+#connexion fieldset legend
+{
+font-weight:bold;
+font-size:x-large;
+}
+
+#connexion input
+{
+margin-left:15%;
+width:70%;
+height:30px;
+border-radius:20px;
+font-size:medium;
+text-align:center;
+margin-bottom:5%;
+}
+
+#connexion input:hover, #connexion input:focus
+{
+background-color: #DDEEFF;
+}
+
+::-webkit-input-placeholder
+{
+font-size:medium;
+text-align:center;
+}
+
+::-moz-placeholder/*firefox 19+ */
+{
+font-size:medium;
+text-align:center;
+}
+
+:-moz-placeholder/*firefox 18- */
+{
+font-size:medium;
+text-align:center;
+}
+
+:-ms-input-placeholder
+{
+font-size:medium;
+text-align:center;
+}
+
+#connexion input[type="submit"]
+{
+margin-left:30%;
+width:40%;
+background: none;
+margin-top:5%;
+font-weight:bolder;
+}
+
+#connexion input[type="submit"]:hover
+{
+background-color: #66CC33;
+cursor: pointer;
+}
+

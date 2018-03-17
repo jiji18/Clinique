@@ -1,0 +1,203 @@
+body{
+background:url(planning.jpg) no-repeat center center fixed;
+-webkit-background-size: cover; /* pour Chrome et Safari */
+-moz-background-size: cover; /* pour Firefox */
+-o-background-size: cover; /* pour Opera */
+background-size: cover; /* version standardisée */
+color: black;
+height:900px;
+}
+
+.year
+{
+margin-top:-40px;
+height:110px;
+}
+
+.year form p
+{
+font-size:600%;
+font-weight:bolder;
+height:110px;
+text-align:center;
+}
+
+.year .link
+{
+text-decoration:none;
+font-size:xx-large;
+font-weight: bolder;
+color: black;
+}
+
+.year .link:hover
+{
+cursor: pointer;
+}
+
+.year #retour
+{
+margin-left:800px;
+}
+
+.months ul 
+{
+height:80px;
+width: 1600px;
+margin-top:30px;
+margin-left:80px;
+padding-left:120px;
+border: black 3px solid;
+border-collapse: separate;
+}
+
+.months ul li
+{
+float:left;
+list-style-type:none;
+text-align:center;
+margin-right:70px;
+padding-top:20px;
+}
+
+.months ul li a
+{
+text-decoration:none;
+font-size:xx-large;
+font-weight: bolder;
+color: black;
+}
+
+.months ul li a:hover
+{
+cursor: pointer;
+}
+
+.days .month table
+{
+float:left;
+height:600px;
+width: 1300px;
+margin-left:80px;
+border: black 3px solid;
+border-collapse: separate;
+border-spacing: 2px;
+empty-cells: hide;
+}
+
+.days .month table tr th
+{
+height:45px;
+font-size:125%;
+}
+
+.days .month table tr td
+{
+border: black 2px solid;
+text-align:center;
+}
+
+#today
+{
+border: red 5px solid;
+}
+
+.day a
+{
+display:block;
+text-decoration:none;
+background:none;
+font-size:200%;
+height:65px;
+color: black;
+text-align:center;
+}
+
+.noEvents:hover
+{
+cursor:default;
+}
+
+.linkEvents:hover
+{
+font-weight:bolder;
+}
+
+.allEvents form fieldset
+{
+float:left;
+padding-top:0px;
+margin-top:-8px;
+width:395px;
+height:595px;
+border: black 3px solid;
+border-collapse: separate;
+border-spacing: 2px;
+}
+
+.allEvents form fieldset:hover
+{
+background-color:#FFF;
+}
+
+.allEvents form fieldset legend
+{
+margin-bottom:30px;
+font-weight:bold;
+}
+
+.allEvents form label
+{
+background-color: black;
+color:white;
+width: 39%;
+display: block; /*met les labels en block*/
+float: left;
+text-align: right;
+letter-spacing: 1px;
+padding-right: 1px;
+}
+
+.allEvents form label:hover
+{
+font-weight:bold;
+}
+
+.allEvents form input, .allEvents form select
+{
+width: 58%;
+margin-left: 1%;
+border: #CCC 1px solid;
+}
+
+.allEvents form input[type="radio"]
+{
+width:45px;
+}
+
+.allEvents form input:hover, .allEvents form input:focus, .allEvents form select:hover
+{
+background-color: #DDEEFF;
+border: #999 1px solid;
+}
+.allEvents form .form_label_nostyle
+{
+border: none;
+background: none;
+}
+
+.allEvents form input[type="submit"]
+{
+border: #DDEEFF 1px solid; width: 27%;
+}
+
+.allEvents form input[type="submit"]:hover
+{
+background-color: #66CC33;
+cursor: pointer;
+}
+
+.allEvents form fieldset #bouton
+{
+margin-top:40px;
+}

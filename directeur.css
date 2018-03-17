@@ -1,0 +1,87 @@
+body{
+background:url(directeur.jpg) no-repeat center center fixed;
+-webkit-background-size: cover; /* pour Chrome et Safari */
+-moz-background-size: cover; /* pour Firefox */
+-o-background-size: cover; /* pour Opera */
+background-size: cover; /* version standardisée */
+
+}
+
+#logo
+{
+float:left;
+}
+
+#deconnexion
+{
+float:left;
+margin-top:1%;
+margin-left:5%;
+}
+
+#deconnexion #texte
+{
+font-size:x-large;
+font-weight:bolder;
+}
+
+#deconnexion input[type="submit"]
+{
+width:125%;
+height:40px;
+border-radius:20px;
+border: black 3px solid;
+margin-bottom:5%;
+margin-left:65%;
+background: none;
+font-weight:bolder;
+font-size:medium;
+}
+
+#deconnexion input[type="submit"]:hover
+{
+background-color: #66CC33;
+cursor: pointer;
+}
+
+fieldset{
+clear:both;
+margin-left:33.33%;
+width:33.33%;
+height:30%;
+border-radius:10px;
+border: black 5px solid;
+}
+
+fieldset legend{
+font-weight:bold;
+font-size:x-large;
+}
+
+
+.boutton{
+margin-left:30%;
+width:40%;
+background: none;
+margin-top:5%;
+font-weight:bolder;
+}
+
+.bouton:hover{
+background-color: #66CC33;
+cursor: pointer;
+}
+
+#modification{
+	float:top center;
+	width:10cm;
+}
+
+#modifierajouter{
+	float:center;
+	width:15cm;
+}
+
+form{
+	
+}
